@@ -9,7 +9,7 @@ User Stories
 
 Story 1
 
- Obj          Message
+ Obj       |   Message
 ---------- | ----------
 Pilot      |
 Plane      |  land
@@ -17,7 +17,7 @@ Airport    |  arrive
 
 Story 2
 
- Obj          Message
+ Obj       |   Message
 ---------- | ----------
 Pilot      |
 Plane      |
@@ -25,7 +25,7 @@ Airport    |  take_off
 
 Story 3
 
- Obj                            Message
+ Obj                        |    Message
 --------------------------  | --------------------
 Air_traffic_controller      |
 Plane                       |  avoid_collisons
@@ -33,7 +33,7 @@ Airport                     |  prevent_landing
 
 Story 4
 
- Obj                              Message
+ Obj                           |   Message
 ------------------------------ | ----------
 Air_traffic_controller         |
 Plane                          |  avoid_accidents
