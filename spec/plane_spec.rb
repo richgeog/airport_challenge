@@ -15,25 +15,24 @@ require 'plane'
 # Are you testing that?
 
 describe Plane do
-  it { is_expected.to respond_to :flying? }
 
-  it 'is flying when created' do
-    expect(subject).to be_flying
+  xit 'is flying when created' do
+
   end
 
   xit 'can land' do
   end
 
-  it 'is landed after landing' do
-    expect(subject ).to be_landed
+  xit 'is landed after landing' do
+
   end
 
-  it 'can take off' do
-    expect(subject.take_off).to eq true
+  xit 'can take off' do
+
   end
 
   xit 'is flying after take off' do
-    expect(subject ).to respond_to :flying?
+
   end
 
 end

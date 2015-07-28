@@ -1,5 +1,4 @@
 require 'airport'
-require_relative '../lib/plane'
 
 ## Note these are just some guidelines!
 ## Feel free to write more tests!!
@@ -13,14 +12,12 @@ require_relative '../lib/plane'
 # If the airport is full then no planes can land
 
 describe Airport do
-  it { is_expected.to respond_to :release_plane }
 
   describe 'take off' do
     xit 'instructs a plane to take off'
 
-    it 'releases a plane' do
-      plane = subject.release_plane
-      expect(plane).to_not be_flying
+    xit 'releases a plane' do
+
     end
   end
 
@@ -28,13 +25,12 @@ describe Airport do
   end
 
   describe 'traffic control' do
-    it 'has a default capacity'do
-      expect(subject.capacity).to eq Airport::DEFAULT_CAPACITY
+    xit 'has a default capacity'do
+
     end
     context 'when airport is full' do
-      it 'does not allow a plane to land' do
-        subject.capacity.times { subject.land Plane.new }
-        expect { subject.land Plane.new }.to raise_error "Airport is full"
+      xit 'does not allow a plane to land' do
+
       end
     end
 
