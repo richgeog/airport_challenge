@@ -5,7 +5,7 @@ Airport Challenge
 
 ##Task
 
-Ccreate an airport that can land planes when flying, and allow them to take off using TDD and OOD.
+Create an airport that can land planes when flying, and allow them to take off using TDD and OOD.
 
 When planes are created they would be flying and no planes can be created in the airport. Air traffic control would control the landing and take off for planes to ensure no planes land when the airport is full. A weather factor would also control the landing and taking off of planes, resulting in no planes being allowed to take off when the weather is stormy.
 
