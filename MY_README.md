@@ -22,6 +22,10 @@ rspec
 
 ##V1
 
+* When planes are created they are flying
+* Planes can land and take off at any time
+* The airport has a default capacity for the amount of planes
+
 DOMAIN MODEL
 -------------
 
