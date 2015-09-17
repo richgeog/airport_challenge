@@ -5,7 +5,7 @@ Airport Challenge
 
 ##Task
 
-The puspose of this challenge is to create an airport that can land planes when flying, and allow them to take off using TDD and OOD.
+Ccreate an airport that can land planes when flying, and allow them to take off using TDD and OOD.
 
 When planes are created they would be flying and no planes can be created in the airport. Air traffic control would control the landing and take off for planes to ensure no planes land when the airport is full. A weather factor would also control the landing and taking off of planes, resulting in no planes being allowed to take off when the weather is stormy.
 
@@ -28,11 +28,11 @@ User Stories
 Story 1
 --------
 
- Obj          Message
----------- | ----------
-Pilot      |
-Plane      |  land
-Airport    |  arrive
+|  Obj        |  Message     |
+| ----------: | :----------: |
+| Pilot       |              |
+| Plane       |  landing     |
+| Airport     |  arrive      |
 
 Story 2
 --------
@@ -62,7 +62,9 @@ Plane                          |  avoid_accidents
 Weather                        |  stormy
 
 ##Still to do
-
+* Allow planes to land only if airport has space
+* Create random weather
+* Allow planes to only land and take off if weather is not stormy
 
 
 ##Things to remember
