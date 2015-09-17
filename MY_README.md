@@ -28,38 +28,38 @@ User Stories
 Story 1
 --------
 
-|  Obj        |  Message     |
-| ----------: | :----------: |
-| Pilot       |              |
-| Plane       |  landing     |
-| Airport     |  arrive      |
+|  Obj         |  Message     |
+| :----------: | :----------: |
+| Pilot        |              |
+| Plane        |  landing     |
+| Airport      |  arrive      |
 
 Story 2
 --------
 
- Obj          Message
----------- | ----------
-Pilot      |
-Plane      |
-Airport    |  take_off
+|  Obj         |   Message      |
+| :----------: | :----------:   |
+| Pilot        |                |
+| Plane        |                |
+| Airport      |  take_off      |
 
 Story 3
 --------
 
- Obj                            Message
---------------------------  | --------------------
-Air_traffic_controller      |
-Plane                       |  avoid_collisons
-Airport                     |  prevent_landing
+|  Obj                         |   Message              |
+| :--------------------------: | :--------------------: |
+| Air_traffic_controller       |                        |
+| Plane                        |  avoid_collisons       |
+| Airport                      |  prevent_landing       |
 
 Story 4
 --------
 
- Obj                              Message
------------------------------- | ----------
-Air_traffic_controller         |
-Plane                          |  avoid_accidents
-Weather                        |  stormy
+|  Obj                             |   Message            |
+| :------------------------------: | :------------------: |
+| Air_traffic_controller           |                      |
+| Plane                            |    avoid_accidents   |
+| Weather                          |    stormy            |
 
 ##Still to do
 * Allow planes to land only if airport has space
